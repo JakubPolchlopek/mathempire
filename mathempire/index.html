@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Mathempire</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/icon.png" sizes="32x16" type="image/png" />
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo"><img src="images/logo_header.png" /></a>
+    <a class="header-elements" href="podstrony/gra/game.html">GRA</a>
+    <a class="header-elements" href="#nauka">NAUKA</a>
+    <a class="header-elements" href="podstrony/o_nas.html">O NAS</a>
+    <div>
+      <a class="header-elements" href="podstrony/log_rej/login.html">LOGOWANIE</a>
+      <a class="header-elements" href="podstrony/kontakt.html">KONTAKT</a>
+    </div>
+  </header>
+  <main>
+    <div class="introduce">
+      <p>
+        Witamy na naszej stronie. Jeśli poszukujesz miejsca, w którym nauczysz
+        się matematyki w sposób, który tylko Ci pasuje, trafiłeś w odpowiednie
+        miejsca.
+      </p>
+      <a href="#button-dalej" id="button-dalej" class="button-dalej" style="--content: 'Przejdź dalej'">
+        <div class="left"></div>
+        Przejdź dalej
+        <div class="right"></div>
+      </a>
+    </div>
+    <div id="movable-elements-wrapper" class="movable-elements-wrapper">
+      <div id="box" data-value="-3" class="one element movable">
+        <p>Łatwa i fajniejsza nauka matematyki!</p>
+      </div>
+      <div data-value="-7" class="two element movable">
+        <p>Wiele tematów do wyboru...</p>
+      </div>
+      <div data-value="2" class="three element movable">
+        <p>Zagraj juz teraz!</p>
+      </div>
+    </div>
+    <div id="gra" class="gra">
+      <p>
+        Gra typu Milionerzy! Aby wygrać musisz odpowiedzieć dobrze na 12
+        zamkniętych pytań. Dostępna jedna podpowiedź i jedno 50/50 w jednej
+        grze!
+      </p>
+      <a href="podstrony/gra/game.html" class="button-gra"><span>Zagraj!</span></a>
+    </div>
+    <div id="nauka" class="nauka">
+      <p>
+        Jeżeli standardowe sposoby bardziej Ci odpowiadają, oferujemy również
+        wiele materiałów do nauki, notatek i zadań.
+      </p>
+      <button class="button-nauka">Ucz się!</button>
+      <div class="box-dzialy non-active">
+        <div class="dzialy"></div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Dawid Ślusarczyk & Jakub Półchłopek @MatheEmpire 2023</p>
+  </footer>
+  <script src="scripts/movable-elements.js"></script>
+  <script src="scripts/showDzialy.js"></script>
+</body>
+
+</html>
