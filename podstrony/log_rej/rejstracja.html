@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Mathempire Rejestracja</title>
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="icon" href="../../images/icon.png" sizes="32x16" type="image/png" />
+</head>
+
+<body>
+    <header>
+        <a href="../../index.html" class="logo"><img src="../../images/logo_header.png" /></a>
+        <a class="header-elements" href="../gra/game.html">GRA</a>
+        <a class="header-elements" href="../../index.html">NAUKA</a>
+        <a class="header-elements" href="../o_nas.html">O NAS</a>
+        <div>
+            <a class="header-elements" href="login.html">LOGOWANIE</a>
+            <a class="header-elements" href="../kontakt.html">KONTAKT</a>
+        </div>
+    </header>
+    <main>
+        <form class="formularz">
+            <h1>REJESTRACJA</h1>
+            <label><input type="text" class="username" placeholder="nazwa użytkownika" required /></label>
+            <label><input type="email" class="email" placeholder="e-mail" required /></label>
+            <label><input type="password" class="password" placeholder="hasło" required /></label>
+            <p>Hasło musi zawierać:</p>
+            <ul>
+                <li>minimum 8 znaków</li>
+                <li>cyfry</li>
+                <li>litery</li>
+                <li>znaki specjalne</li>
+            </ul>
+            <div class="buttons">
+                <button type="reset" class="reset">Resetuj</button>
+                <button type="submit" class="submit" disabled>Potwierdz</button>
+            </div>
+            <p>MASZ JUŻ KONTO? <a href="login.html">ZALOGUJ SIĘ</a></p>
+        </form>
+    </main>
+    <footer>
+        <p>Dawid Ślusarczyk & Jakub Półchłopek @MatheEmpire 2023</p>
+    </footer>
+    <script src="scripts/formValidator.js"></script>
+</body>
+
+</html>
