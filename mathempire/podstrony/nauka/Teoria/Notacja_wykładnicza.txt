@@ -1,5 +1,0 @@
-1) Czym jest notacja wykładnicza?
-Notacją wykładniczą nazywamy sposób przedstawiania liczb za pomocą iloczynu liczby x oraz liczby 10^n, gdzie 1<=x<10 i n c C. Jest ona stosowana m.in. do zapisu dużych i małych liczb.
-
-2) Przykłady: 
-421 000 000 = 4,21 * 100 000 000 = 4,21 * 10^8
