@@ -304,7 +304,7 @@ main {
   width: 100%;
 }
 
-.box-dzialy {
+.categoriesBox {
   display: flex;
   overflow-x: scroll;
   height: 350px;
@@ -313,7 +313,7 @@ main {
   margin-bottom: 180px;
 }
 
-.dzialy {
+.categories {
   width: auto;
   display: flex;
   flex-direction: row;
@@ -330,16 +330,16 @@ main {
   text-align: center;
 }
 
-.box-dzialy::-webkit-scrollbar {
+.categoriesBox::-webkit-scrollbar {
   background: none;
 }
 
-.box-dzialy::-webkit-scrollbar-thumb {
+.categoriesBox::-webkit-scrollbar-thumb {
   border-radius: 30px;
   background: rgba(0, 0, 0, 0.12);
 }
 
-.box-dzialy::-webkit-scrollbar-thumb:hover {
+.categoriesBox::-webkit-scrollbar-thumb:hover {
   background: rgba(0, 0, 0, 0.25);
 }
 
@@ -443,7 +443,7 @@ main {
 
 .start-btn,
 .tryAgain,
-.button-nauka {
+.startLearningBtn {
   text-align: center;
   display: inline-block;
   padding: 15px 40px;
@@ -474,7 +474,7 @@ main {
 
 .start-btn:before,
 .tryAgain:before,
-.button-nauka:before {
+.startLearningBtn:before {
   content: "";
   position: absolute;
   height: 150px;
@@ -489,7 +489,7 @@ main {
 
 .start-btn:hover:before,
 .tryAgain:hover:before,
-.button-nauka:hover:before {
+.startLearningBtn:hover:before {
   left: 95%;
 }
 
